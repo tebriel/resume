@@ -1,0 +1,83 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document} 
+ 
+\name{Christopher T. Moultrie\\[12pt]} % the \\[12pt] adds a blank line after name
+ 
+\address{{\bf Present Address} \\ 204 Drexel Ave Apt B \\ Decatur, GA 30030  \\
+        (678-773-1545 }
+ 
+\begin{resume} 
+ 
+\section{Education} 
+    B.S. in Computer Science, Georgia State University, Atlanta, GA, Fall 2010  \\
+    Concentrations in Networks and Parallel Distributed Computing \\
+    GPA 3.8 in major
+
+    B.A. in Spanish, Georgia State University, Atlanta, GA, May 2007 \\
+    Minor in Sociology with Concentration in Business
+ 
+
+\section{Experience}
+    \begin{itemize} \itemsep -2pt  % reduce space between items
+        \item Proficient with OS X, Linux and Windows
+        \item Currently Developing In: Coffee-Script, Javascript, Python
+        \item Previously Developed In: Delphi, C\#, C++, C, Java
+        \item Unit Testing Frameworks Used: Jasmine, DUnit, CppUnit, MSTest
+    \end{itemize}
+
+\section{Employment} 
+
+    {\bf Software Engineer,} Endgame, Atlanta, GA \hfill October 2012 
+        \begin{itemize} \itemsep -2pt %reduce space between items
+            \item Implemented a live  heatmap for 1.5k events per second using HTML5 Canvas
+            \item Set up and created tests for Jasmine to test controllers and views
+            \item Added new views and refactored old ones to use Backbone.js
+            \item Wrote a Node.js app to deliver messages from AMQP to the browser using
+                Socket.io
+        \end{itemize}
+
+    {\bf Software Developer II,} NCR, Alpharetta, GA \hfill November 2010 - October
+    2012
+        \begin{itemize} \itemsep -2pt
+            \item Wrote and published an iPhone app to the App Store in JavaScript
+                using Titanium Studio
+            \item Implemented a Jenkins Server with automated builds triggered by
+                git commits for Titanium Studio. 
+            \item Developed ASP.Net MVC app with HTML, JavaScript, Razor Script and
+                C\# 
+            \item Developed Unit Test Projects for applications in C++, C\#, and
+                Delphi.
+            \item Developed server and client apps for movie theaters.
+        \end{itemize}
+
+    {\bf NOC Specialist,} Turner Broadcasting, Atlanta, GA \hfill February 2010 -
+    November 2010
+        \begin{itemize} \itemsep -2pt
+            \item Wrote a Perl script that fetches application logs in parallel
+                from 2,500 Linux servers.
+            \item Wrote a program in C++ to query and edit Server Farm Inventory
+                Database.
+            \item Wrote Perl scripts for accomplishing daily tasks.
+        \end{itemize}
+
+\section{Current Activities}
+    \begin{itemize}
+        \item Maintainer of Jasmine-Node and Node-Jira Packages on NPM and GitHub
+        \item Exploring Backbone.Marionette Framework by building a simple blog
+        \item Re-writing smime\_keys for Mutt in Python to integrate with LDAP
+            for automated fetching of smime keys
+    \end{itemize}
+
+\end{resume} 
+\end{document} 
+
+
+
